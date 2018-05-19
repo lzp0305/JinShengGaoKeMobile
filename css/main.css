@@ -219,6 +219,8 @@ body {
   .aboutus_box .about_text {
     font-size: 0.4rem;
     line-height: 0.72rem;
+    height: 3.6rem;
+    overflow: hidden;
     color: #666666;
     width: 9.792rem;
     text-align: justify;
@@ -408,17 +410,24 @@ body {
   text-align: center; }
 
 .detail .detail_main {
-  font-size: 0.4rem;
-  line-height: 0.72rem;
+  font-size: 0.4rem !important;
+  line-height: 0.72rem !important;
   color: #666666;
   padding-top: 0.64rem;
   padding-bottom: 0.8rem;
   margin-top: 0.32rem;
   border-top: 1px solid #eaeaea; }
   .detail .detail_main img {
-    display: block; }
+    display: block;
+    max-width: 100%;
+    height: auto !important; }
   .detail .detail_main p {
-    text-align: justify; }
+    text-align: justify;
+    font-size: 0.4rem !important;
+    line-height: 0.72rem !important; }
+  .detail .detail_main span {
+    font-size: 0.4rem !important;
+    line-height: 0.72rem !important; }
 
 .ny_about .about_main {
   font-size: 0.4rem;
@@ -557,7 +566,8 @@ body {
   font-size: 0.4rem;
   line-height: 0.72rem;
   color: #666666;
-  margin-top: 0.8rem; }
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem; }
 
 .iw_poi_title {
   color: #CC5522;

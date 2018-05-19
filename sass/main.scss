@@ -304,6 +304,8 @@ body {
 	.about_text {
 		font-size: torem(25px);
 		line-height: torem(45px);
+		height: torem(225px);
+		overflow: hidden;
 		color: #666666;
 		width: torem(612px);
 		text-align: justify;
@@ -538,8 +540,8 @@ body {
 		text-align: center;
 	}
 	.detail_main {
-		font-size: torem(25px);
-		line-height: torem(45px);
+		font-size: torem(25px)!important;
+		line-height: torem(45px)!important;
 		color: #666666;
 		padding-top: torem(40px);
 		padding-bottom: torem(50px);
@@ -547,9 +549,17 @@ body {
 		border-top: 1px solid #eaeaea;
 		img {
 			display: block;
+			max-width: 100%;
+			height: auto!important;
 		}
 		p {
 			text-align: justify;
+			font-size: torem(25px)!important;
+			line-height: torem(45px)!important;
+		}
+		span {
+			font-size: torem(25px)!important;
+			line-height: torem(45px)!important;
 		}
 	}
 }
@@ -727,6 +737,7 @@ body {
 		line-height: torem(45px);
 		color: #666666;
 		margin-top: torem(50px);
+		margin-bottom: torem(50px);
 	}
 }
 .iw_poi_title {
