@@ -447,7 +447,7 @@ body {
 
 
 .center {
-	padding: 0 torem(20px);
+	padding: 0 torem(25px);
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -550,6 +550,243 @@ body {
 		}
 		p {
 			text-align: justify;
+		}
+	}
+}
+
+
+
+.ny_about {
+	.about_main {
+		font-size: torem(25px);
+		line-height: torem(45px);
+		color: #666666;
+		margin-top: torem(30px);
+		text-align: justify;
+	}
+	.about_img {
+		margin-top: torem(40px);
+		display: block;
+		width: 100%;
+		height: torem(407px);
+		margin-bottom: torem(50px);
+	}
+}
+
+
+.ny_honor {
+	.honor_group {
+		width: torem(720px);
+		margin-top: torem(50px);
+		overflow: hidden;
+		li {
+			width: torem(340px);
+			height: torem(425px);
+			float: left;
+			margin-right: torem(20px);
+			a {
+				display: block;
+				.img_box {
+					display: block;
+					width: torem(338px);
+					height: torem(338px);
+					border: 1px solid #dbdbdb;
+					img {
+						display: block;
+						width: torem(297px);
+						height: torem(203px);
+						margin: torem(67px) auto;
+					}
+				}
+				.title {
+					display: block;
+					font-size: torem(26px);
+					line-height: torem(86px);
+					text-align: center;
+					color: #555555;
+				}
+			}
+		}
+	}
+}
+
+.honor_more {
+	display: block;
+	width: torem(200px);
+	height: torem(50px);
+	padding-top: torem(34px);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	margin: torem(55px) auto;
+	text-align: center;
+	font-size: torem(24px);
+	line-height: torem(50px);
+	color: #999999;
+	margin-bottom: torem(30px);
+}
+
+
+.ny_result {
+	.result_group {
+		margin-top: torem(40px);
+		li {
+			margin-bottom: torem(40px);
+			a {
+				display: block;
+				position: relative;
+				img {
+					display: block;
+					width: torem(700px);
+					height: torem(422px);
+				}
+				.title {
+					display: block;
+					position: absolute;
+					top: torem(337px);
+					width: 100%;
+					height: torem(85px);
+					background-color: rgba(218,37,28,0.85);
+					font-size: torem(30px);
+					line-height: torem(85px);
+					color: #ffffff;
+					text-align: center;
+				}
+				.summary {
+					display: block;
+					width: torem(658px);
+					font-size: torem(25px);
+					line-height: torem(45px);
+					color: #777777;
+					text-align: justify;
+					padding: torem(19px) torem(20px);
+					border: 1px solid #d9d9d9;
+				}
+			}
+		}
+	}
+}
+
+.ny_message {
+	.message_box {
+		margin-top: torem(40px);
+		form {
+			input {
+				display: block;
+				width: torem(670px);
+				height: torem(70px);
+				margin-bottom: torem(25px);
+				border: 0;
+				outline: 0;
+				padding: 0 torem(15px);
+				font-size: torem(22px);
+				color: #888888;
+				line-height: torem(70px);
+				background-color: #f1f1f1;
+			}
+			textarea {
+				display: block;
+				width: torem(670px);
+				height: torem(195px);
+				margin-bottom: torem(25px);
+				border: 0;
+				outline: 0;
+				padding: 0 torem(15px);
+				font-size: torem(22px);
+				color: #888888;
+				line-height: torem(70px);
+				background-color: #f1f1f1;
+			}
+			.submit {
+				display: block;
+				width:100%;
+				height: torem(70px);
+				margin-bottom: torem(25px);
+				border: 0;
+				outline: 0;
+				padding: 0 torem(15px);
+				font-size: torem(28px);
+				color: #fff;
+				line-height: torem(70px);
+				border-radius: 0;
+				background-color: $red;
+			}
+		}
+	}
+}
+
+
+
+.ny_contact {
+	.map_box {
+		width: torem(700px);
+		height: torem(356px);
+		margin-top: torem(30px);
+	}
+	.contact_message {
+		font-size: torem(25px);
+		line-height: torem(45px);
+		color: #666666;
+		margin-top: torem(50px);
+	}
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: torem(24px);;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: torem(13px);;
+	white-space: nowrap;
+}
+.iw_poi_content {
+	font: torem(20px) arial,sans-serif;
+	overflow: visible;
+	padding-top: torem(4px);;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word;
+}
+.BMap_Marker{
+	background:  url(../images/map-img.png) no-repeat center !important;
+}
+.pop .center {
+	padding: 0!important;
+}
+.BMapLabel {
+	font-size: torem(20px)!important;
+}
+
+
+.news_list {
+	margin-top: torem(10px);
+	li {
+		padding-top: torem(30px);
+		padding-bottom: torem(30px);
+		padding-left: torem(286px);
+		position: relative;
+		border-bottom: 1px solid #eaeaea;
+		img {
+			display: block;
+			position: absolute;
+			left: 0;
+			top: torem(30px);
+			width: torem(276px);
+			height: torem(143px);
+		}
+		.title {
+			display: block;
+			font-size: torem(26px);
+			line-height: torem(40px);
+			color: #666666;
+			height: torem(80px);
+			width: torem(372px);
+			overflow: hidden;
+			margin-top: torem(5px);
+		}
+		.date {
+			display: block;
+			font-size: torem(22px);
+			line-height: torem(40px);
+			margin-top: torem(19px);
+			color: #888888;
 		}
 	}
 }

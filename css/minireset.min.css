@@ -12,3 +12,11 @@ q:before,q:after{content:''}
 a{text-decoration:none}
 /* 共用css */
 .clear{clear:both;}
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+-webkit-appearance: none;
+}
